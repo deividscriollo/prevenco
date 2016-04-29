@@ -1,6 +1,4 @@
-@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 @import url(//fonts.googleapis.com/css?family=Raleway:400,300,500,600,800,700);
-@import "animate.css";
 /*========================================================
                       Main Styles
 =========================================================*/
@@ -34,7 +32,7 @@ body {
   font-size: 20px;
 }
 .clr-primary {
-  color: #38a99c;
+  color: #006CB5;
 }
 .clr-secondary {
   color: #1c1c1c;
@@ -298,7 +296,7 @@ table .bg5 {
 }
 /*==================     Panels      ====================*/
 .panels {
-  background: #f3f3f3;
+  background: #006CB5;
 }
 .panels .inline-list {
   float: left;
@@ -387,7 +385,7 @@ table .bg5 {
   font-weight: 700;
 }
 .box_cnt a:hover {
-  color: #38a99c;
+  color: #006CB5;
 }
 .box_cnt .badge {
   display: inline-block;
@@ -717,7 +715,7 @@ table .bg5 {
   color: #ffffff;
 }
 .rd-mobilemenu_ul a:hover {
-  background: #38a99c;
+  background: #006CB5;
   color: #ffffff;
 }
 .rd-mobilemenu_ul a .rd-submenu-toggle {
@@ -786,7 +784,7 @@ table .bg5 {
   color: #ffffff;
 }
 .rd-mobilemenu_ul ul ul a:hover {
-  background: #38a99c;
+  background: #006CB5;
   color: #ffffff;
 }
 .rd-mobilemenu_ul:after {
@@ -957,7 +955,7 @@ table .bg5 {
     font-weight: 700;
     color: #fff;
     padding: 5px 0px 5px;
-    background: #38a99c;
+    background: #006CB5;
     -moz-transition: 0.3s all ease;
     -webkit-transition: 0.3s all ease;
     -o-transition: 0.3s all ease;
