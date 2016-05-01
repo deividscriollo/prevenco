@@ -450,7 +450,7 @@ table .bg5 {
 }
 /*==================  Stuck menu  ======================*/
 .stuck_container {
-  padding: 10px 0 25px;
+  padding: 0px 0 0px;
 }
 .isStuck {
   padding: 0;
@@ -466,7 +466,7 @@ table .bg5 {
   top: 0px;
 }
 .isStuck .navbar-nav {
-  margin-top: 10px;
+  margin-top: 27px;
 }
 @media only screen and (max-width: 992px) {
   .isStuck {
@@ -479,6 +479,29 @@ table .bg5 {
 .isStuck .sf-menu ul ul {
   top: 0;
 }
+/*================ menu sufoper*/
+.navbar-brand:before {
+    content: url(../images/logo_img.png);
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+.navbar-default {
+    background-color: #FFF;
+    border-color: none;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    height: 90px;
+}
+.navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav > li.sfHover > a, .navbar-default .navbar-nav > li.active > a:hover, .navbar-default .navbar-nav > li.sfHover > a:hover, .navbar-default .navbar-nav > li.active > a:focus, .navbar-default .navbar-nav > li.sfHover > a:focus {
+    color: #006CB5;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    color: #006CB5;
+    background-color: transparent;
+}
 /*==================     ToTop     ======================*/
 .toTop {
   width: 47px;
@@ -487,7 +510,7 @@ table .bg5 {
   line-height: 47px!important;
   font-weight: 700;
   color: #fff!important;
-  background: #2b8379;
+  background: #006CB5;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
