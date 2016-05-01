@@ -44,22 +44,6 @@
     =========================================================-->
     <header>
 
-        <section class="well panels">
-            <div class="container">
-                <ul class="inline-list">
-                    <li><a href="#">Forums</a></li>
-                    <li><a href="#">Community </a></li>
-                    <li><a href="#">Affiliates </a></li>
-                    <li><a href="#">Help</a></li>
-                </ul>
-
-                <div class="btn-wr-header">
-                    <a href="#" class="btn btn-default btn-default__mod">Create an account</a>
-                    <a href="#" class="btn btn-default btn-default__mod">Sign In</a>
-                </div>
-            </div>
-        </section>
-
         <div id="stuck_container" class="stuck_container">
             <nav class="navbar navbar-default navbar-static-top clearfix">
                 <div class="container">
@@ -71,16 +55,16 @@
 
                     <div class="navbar-right">
                         <ul class="navbar-nav sf-menu" data-type="navbar">
-                            <li class="active">
+                            <li >
                                 <a href="./"><i class="fa fa-home"></i> Inicio</a>
                             </li>
                             <li>
                                 <a href="index-1.html"><i class="fa fa-database"></i> Corporativo</a>
                             </li>
                             <li>
-                                <a href="index-2.html"><i class="fa fa-rocket"></i> Galería</a>
+                                <a href="index-2.html"><i class="fa fa-rocket"></i> Servicios</a>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="index-4.html"><i class="fa fa-map-marker"></i> Contactos</a>
                             </li>
                         </ul>
@@ -125,6 +109,7 @@
                                 <dd>
                                     <a href="callto:#"> 0988 300 526</a>
                                 </dd>
+                                <br>
                                 <dt>Telefono:</dt>
                                 <dd>
                                     <a href="callto:#"> 06 2 601 913</a>
@@ -144,12 +129,12 @@
 
                     </div>
                     <div class="col-md-8 col-sm-12 col-xs-12">
-                        <h3 class="text-center"><strong>Contact</strong> Form</h3>
+                        <h3 class="text-center"><strong>Formulario</strong> Contactos</h3>
                         <form id="contact-form" class='contact-form'>
                             <div class="contact-form-loader"></div>
                             <fieldset>
                                 <label class="name">
-                                    <input type="text" name="name" placeholder="Name*:" value=""
+                                    <input type="text" name="name" placeholder="Nombre*:" value=""
                                            data-constraints="@Required @JustLetters"/>
 
                                     <span class="empty-message">*This field is required.</span>
@@ -157,7 +142,7 @@
                                 </label>
 
                                 <label class="phone">
-                                    <input type="text" name="phone" placeholder="Phone:" value=""
+                                    <input type="text" name="phone" placeholder="Teléfono:" value=""
                                            data-constraints="@JustNumbers"/>
 
                                     <span class="empty-message">*This field is required.</span>
@@ -165,7 +150,7 @@
                                 </label>
 
                                 <label class="email">
-                                    <input type="text" name="email" placeholder="Email*:" value=""
+                                    <input type="text" name="email" placeholder="Mensaje*:" value=""
                                            data-constraints="@Required @Email"/>
 
                                     <span class="empty-message">*This field is required.</span>
@@ -184,7 +169,7 @@
                                 <!--</label>-->
 
                                 <div class="btn-wr">
-                                    <a class="btn btn-primary" href="#" data-type="submit">Submit comment</a>
+                                    <a class="btn btn-primary" href="#" data-type="submit">Enviar</a>
                                 </div>
                             </fieldset>
                             <div class="modal fade response-message">
